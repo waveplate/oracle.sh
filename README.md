@@ -8,6 +8,15 @@ listens to your microphone and generates text-to-speech responses, providing an 
 - curl
 
 # usage
+
+add your `OPENAI_API_KEY` to your `~/.bashrc` file
+
+`export OPENAI_API_KEY=<KEY>`
+
 `$ ./oracle.sh`
+
+or
+
+`$ OPENAI_API_KEY=<KEY> ./oracle.sh`
 
 then simply speak into your microphone and listen for chatgpt's response
